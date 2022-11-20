@@ -8,7 +8,7 @@ public class StringManipulations01 {
         String str = "Kara kara düsünme Ankara";
         //indexOf() methodu verilen karakter veya karakterlerin ilk görünümünün indexini verir.
         int idxA1 = str.indexOf("kara");
-        System.out.println(idxA1);
+        System.out.println("a"+idxA1);
 
         //lastIndexOf() methodu
         int idxA2 = str.lastIndexOf("kara");

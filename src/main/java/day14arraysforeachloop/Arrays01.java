@@ -29,6 +29,8 @@ public class Arrays01 {
         }
         System.out.println();
 
+
+
         String brr[] = {"Jane", "Mark", "Christopher", "Tom", "Ali", "Rojda"};
 
         for (String w : brr) {
@@ -58,6 +60,22 @@ public class Arrays01 {
             names[i-1]= stdName;
         }
         System.out.println(Arrays.toString(names));
+
+
+        // Dizi Tanımlaması:
+        int [] sifirlarDizisi = {0,0,0,0,0};
+        int [] birlerDizisi = {1,1,1,1,1};
+        // Dizi Elemanlarını Değiştirme:
+        Arrays.fill(sifirlarDizisi,1); // Sıfırlar dizi elemanları 1 olarak değiştirildi.
+        Arrays.fill(birlerDizisi,1,3,0); // Birler dizi elemanlarından 1 ve 3. indis arasınıdaki değerleri 0 olarak değiştirildi.
+        // Ekrana Yazdırma İşlemleri:
+        System.out.print ("Değiştirilen Sıfırlar Dizisi: ");
+        for(int i=0;i<sifirlarDizisi.length;i++)
+            System.out.print("["+sifirlarDizisi[i]+"] ");
+        System.out.print("\nDeğiştirilen Birler Dizisi: ");
+        for(int i=0;i<birlerDizisi.length;i++)
+            System.out.print("["+birlerDizisi[i]+"] ");
+
 
     }
 
