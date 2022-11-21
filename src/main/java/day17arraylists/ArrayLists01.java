@@ -27,7 +27,7 @@ public class ArrayLists01 {
 
         List<String> myNames = new ArrayList<>();
         myNames.add("Thomas");
-        myNames.add("Tahsine");
+        myNames.add("Tahsin");
 
         boolean sonuc1 = names.containsAll(myNames);
         //Bir Listin icinde coklu elemanlarin var olup olmadigini kontrol eder Hepsi varsa true en az biri yoksa false verir.

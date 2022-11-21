@@ -41,7 +41,7 @@ public class Arrays01 {
             System.out.print(w + " ");
         }
         System.out.println();
-        //kullanici ile beraber bir Array olusturunuz ve icine data ekleyiniz
+    /*    //kullanici ile beraber bir Array olusturunuz ve icine data ekleyiniz
         //bir ogretmenin sinifindaki ogrencilerin isimlerini applicationa yuklemesini saglayan kodu yaziniz
         Scanner input = new Scanner(System.in);
         System.out.println("Kac ogrenci ismi gireceksiniz");
@@ -61,7 +61,7 @@ public class Arrays01 {
         }
         System.out.println(Arrays.toString(names));
 
-
+*/
         // Dizi Tanımlaması:
         int [] sifirlarDizisi = {0,0,0,0,0};
         int [] birlerDizisi = {1,1,1,1,1};
