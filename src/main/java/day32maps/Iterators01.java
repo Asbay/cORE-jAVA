@@ -22,7 +22,7 @@ public class Iterators01 {
         for (String w:myList){
         w=w+"!";
     }
-        System.out.println(myList);//[Z;K;A;J;M]
+        System.out.println("+"+myList);//[Z;K;A;J;M]
 
 
     ListIterator<String> itr=myList.listIterator();

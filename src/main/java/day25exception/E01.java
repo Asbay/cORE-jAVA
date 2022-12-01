@@ -36,7 +36,6 @@ public class E01 {
     }
     //1.Yol tavsiye edilmez
     public static void divide(int a, int b){
-
         if(b!=0) {
             System.out.println(a / b);
         }else{
@@ -44,15 +43,14 @@ public class E01 {
         }
     }
     //2.yol try-catch kullanarak exception i handle etmek tavsiye edilir
-
     public static void divide2(int a, int b){
         try{
             System.out.println(a/b);
-        }catch (ArithmeticException e){//Burada yazdigimiz e : 'Javanin exeptionu atayacagi obje
+        }catch (ArithmeticException e){//Burada yazdigimiz e : 'Javanin exceptionu atayacagi obje
             System.out.println("Bolme isleminde bir hata olustu==>"+ e.getMessage());
             e.printStackTrace();
             System.err.println("Bolme isleminde bir hata olustu");
-// java matematik ile ilgili karsilasilmasi muhtemel tüm atalari  ArithmeticException class a  koymustur.
+// java matematik ile ilgili karsilasilmasi muhtemel tüm hatalari  ArithmeticException class a  koymustur.
         }
 
 
