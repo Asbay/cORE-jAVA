@@ -9,7 +9,7 @@ public class MultiDimensionalArrays01 {
         //bir Arrayin elemanlari Array ise bu Arrayler "MultiDimensional Arraydir"
 
         int arr [][] =new int [3][2];
-        System.out.println(Arrays.deepToString(arr));//[ [3, -4], [6, 18], [-7, 0] ]
+        System.out.println(Arrays.deepToString(arr));
 // ciktisi ekranda bu oldu   [[0, 0], [0, 0], [0, 0]]
         // MultiDimensional Arraylere eleman ekleme nasil yapilir.
 
